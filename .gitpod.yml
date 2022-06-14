@@ -1,3 +1,3 @@
 tasks:
-  - init: pip3 install -r requirements.txt && pip install . && cd scikit-image/doc/examples/
+  - init: pip3 install -r requirements.txt && pip install . && cd doc/examples/
     command: for py_file in $(find $YOUR_FOLDER -name *.py); do python $py_file; done
